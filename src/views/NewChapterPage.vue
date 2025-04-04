@@ -33,7 +33,7 @@ import {copyToClipboard} from "@/utils/CopyUtils.js";
         - 启航
       </div>
     </a-divider>
-    <a-alert :show-icon="false">&emsp;&emsp;有了希望，有了方向，有了官方的态度，有了你们，让我们携手共进，一起杨帆，启航！🌊🌊🌊⚡🌊🌊🌊🌊🌊❄️🌊🌊🌊🌊🌊☂️🌊🌊🌊🌊⛈️🌊🌊🌊🌊🌊☔🌊🌊🌊🌈⛵🏝
+    <a-alert :show-icon="false">&emsp;&emsp;有了希望，有了方向，有了官方的态度，有了你们，让我们携手共进，一起扬帆，启航！🌊🌊🌊⚡🌊🌊🌊🌊🌊❄️🌊🌊🌊🌊🌊☂️🌊🌊🌊🌊⛈️🌊🌊🌊🌊🌊☔🌊🌊🌊🌈⛵🏝
     </a-alert>
   </div>
 </template>

@@ -5,16 +5,16 @@
     <div style="min-height: 900px;position: relative;padding: 0 10px;margin-bottom: 100px">
       <!--  头部 TODO: 加个背景图吧以后！ -->
       <a-alert type="success" closable class="alert-top" :show-icon="false">
-        <span style="color: #def416">这里是 《海岛奇兵》hdqb.icu 🐕🏥</span>
+        <span style="color: #def416">这里是《海岛奇兵》hdqb.top</span>
       </a-alert>
       <!--  导航  -->
       <PageHead @change-type="changeType" ref="pageHeadRef"/>
-      <!--  卡狗榜  -->
+      <!--  公告  -->
       <NoticePage v-show="type === 1"/>
-      <!--  绿玩榜  -->
+      <!--  新章  -->
       <NewChapterPage v-show="type === 2"/>
-      <!--  官网  -->
-      <HistoryPage @goKagouList="goType(1)" v-show="type === 3"/>
+      <!--  历史  -->
+      <HistoryPage @goList="goType(1)" v-show="type === 3"/>
       <ChatPage v-show="type === 4"/>
 
       <a-modal v-model:visible="infoModal" @before-open="setWidth()" unmountOnClose width="90vw"

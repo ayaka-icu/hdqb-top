@@ -3,7 +3,7 @@ import {copyToClipboard} from "@/utils/CopyUtils.js";
 import {LegendList} from "@/data/LegendList.js";
 import {ref} from "vue";
 
-const emits = defineEmits(['goKagouList'])
+const emits = defineEmits(['goList'])
 
 const legendList = ref(LegendList)
 let legendListNoDeath;
@@ -18,8 +18,8 @@ const changeIsShowDeath = (isShow) => {
     legendList.value = legendListNoDeath
   }
 }
-const goKagouList = () => {
-  emits('goKagouList')
+const goList = () => {
+  emits('goList')
 }
 
 </script>
@@ -121,7 +121,7 @@ const goKagouList = () => {
               <div>考虑到国服运营情况，请对<span
                   style="color: red">高杯榜卡bug、开挂玩家，进行封禁，并回调他们的奖杯！</span></div>
               <div>特别是这些：
-                <a-link @click="goKagouList">点击跳转</a-link>
+                <a-link @click="goList">点击跳转</a-link>
               </div>
               不管封多久，请务必回调他们的奖杯！
             </a-collapse-item>

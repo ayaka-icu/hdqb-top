@@ -30,7 +30,7 @@ export const LegendList = [
         url: ''
     },
     {
-        name: '绫华🌸网站hdqb.icu',
+        name: '绫华🌸网站hdqb.top',
         isDeath: false,
         remark: '',
         url: ''
