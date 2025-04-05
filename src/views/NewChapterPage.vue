@@ -21,7 +21,7 @@ import {copyToClipboard} from "@/utils/CopyUtils.js";
       </div>
     </a-divider>
     <a-alert :show-icon="false">&emsp;&emsp;仰望前方，又是一片新天地，探索是人类的本性，不应安于此！<br>
-      &emsp;&emsp;我有意愿<span style="font-weight: bold;color: red">为海岛🏝开发一个手机APP</span>，一方面是学习Flutter跨平台开发，一方面是为海岛🏝为大家做点什么~
+      &emsp;&emsp;我有意愿<span style="font-weight: bold;color: red">为海岛🏝开发一个手机APP</span>，一方面是学习[Flutter或React Native]跨平台开发，一方面是为海岛🏝为大家做点什么~
       <span style="color: red">不过，我不知道能否完成，因为我是一个追求完美的人，项目也可能半路夭折，我尽力吧~</span><br>
       &emsp;&emsp;如果你有什么好的意见或者加入这个项目，请联系QQ群：
       <a-link @click="copyToClipboard('555080859')">555080859</a-link>
