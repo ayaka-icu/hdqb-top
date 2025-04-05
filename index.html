@@ -33,7 +33,7 @@
             }
             100% {
                 opacity: 0;
-                pointer-events: none; /* 动画结束时，禁用鼠标事件 */
+                pointer-events: none;
                 visibility: hidden;
                 overflow: hidden;
             }
@@ -50,7 +50,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            animation: fadeOut 1s 2.6s forwards;
+            animation: fadeOut 1s 3.4s forwards;
             z-index: 9999;
         }
 
@@ -59,8 +59,8 @@
             letter-spacing: -0.1em;
             font-family: Arial, sans-serif;
             font-weight: bold;
-            /*margin-top: 20px;*/
-            animation: fadeIn 1s ease-in-out, fadeOut 1s 1.6s forwards;
+            opacity: 0; /* 初始设置文字不可见 */
+            animation: fadeIn 1s 0.8s ease-in-out forwards, fadeOut 1s 2.4s forwards;
         }
 
         /* 移动端样式 */
